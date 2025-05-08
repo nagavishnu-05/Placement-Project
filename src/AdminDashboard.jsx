@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import { FaBuilding, FaUserGraduate, FaSignOutAlt, FaPlus, FaEdit, FaTrash, FaArrowLeft, FaTimes, FaSave, FaFileExcel } from 'react-icons/fa';
 import Vcet from './assets/VCET Logo.jpg';
 import CSE from './assets/CSE Logo.jpg';
