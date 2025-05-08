@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Head from 'next/head';
 import { FaBuilding, FaUserGraduate, FaSignOutAlt, FaPlus, FaEdit, FaTrash, FaArrowLeft, FaTimes, FaSave, FaFileExcel } from 'react-icons/fa';
 import Vcet from './assets/VCET Logo.jpg';
-import CSE from './assets/CSE Logo.jpg';
+import CSE from './assets/CSE LOGO.jpg';
 import './styles/AdminDashboard.css';
 
 const AdminDashboard = () => {

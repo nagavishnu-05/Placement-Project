@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from 'next/head';
 import Vcet from "./assets/VCET Logo.jpg";
-import CSE from "./assets/CSE Logo.jpg";
+import CSE from "./assets/CSE LOGO.jpg";
 import { FaUser, FaLock, FaUserShield } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import "./styles/Dashboard.css";
