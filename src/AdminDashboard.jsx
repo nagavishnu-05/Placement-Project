@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 import { FaBuilding, FaUserGraduate, FaSignOutAlt, FaPlus, FaEdit, FaTrash, FaArrowLeft, FaTimes, FaSave, FaFileExcel } from 'react-icons/fa';
 import Vcet from './assets/VCET Logo.jpg';
 import CSE from './assets/CSE Logo.jpg';
@@ -176,10 +176,10 @@ const AdminDashboard = () => {
 
   return (
     <div className="min-h-screen bg-gradient-animation p-4 relative overflow-hidden">
-      <Helmet>
+      <Head>
         <title>VCET Placement Portal | Admin Dashboard </title>
         <meta name="description" content="Admin dashboard for managing student placements, company details, and recruitment processes at VCET" />
-      </Helmet>
+      </Head>
       <div className="absolute inset-0 overflow-hidden z-0">
           <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 blob-1"></div>
           <div className="absolute top-40 -left-20 w-80 h-80 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 blob-2"></div>

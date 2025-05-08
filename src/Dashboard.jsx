@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 import Vcet from "./assets/VCET Logo.jpg";
 import CSE from "./assets/CSE Logo.jpg";
 import { FaUser, FaLock, FaUserShield } from "react-icons/fa";
@@ -24,10 +24,10 @@ function Dashboard() {
 
   return (
     <>
-      <Helmet>
+      <Head>
         <title>VCET Placement Portal | Dashboard</title>
         <meta name="description" content="Login to VCET Placement Portal - Access student and admin features for placement management" />
-      </Helmet>
+      </Head>
       <div className="min-h-screen bg-gradient-animation p-4 relative overflow-hidden">
         <div className="absolute inset-0 overflow-hidden z-0">
           <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 blob-1"></div>
